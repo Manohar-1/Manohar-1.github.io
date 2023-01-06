@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;500&family=Roboto:wght@300;400&display=swap');
+
+@import "cssreset.css";
+
+@import "top.css"; 
+
+@import "services.css";
+
+@import "portfolio-section.css";
+
+body{
+    
+}
+
+.container{
+    max-width: 1000px; 
+    margin:0 auto;
+}

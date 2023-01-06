@@ -1,0 +1,79 @@
+#services {
+  padding: 80px 15px;
+}
+
+#services .title {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#services .title .circle {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background: rgba(150, 224, 244,0.4);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+#services .title h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  z-index: 1;
+}
+
+#services .services-container {
+  display: flex;
+}
+
+#services .services-container > div .fas {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#services .services-container > div {
+  background: rgba(255, 255, 255, 0);
+  margin: 20px;
+  padding: 30px;
+}
+
+#services .services-container > div:hover {
+  background: rgba(255, 255, 255, 1);
+  transition: all 0.4s ease-in-out 0s;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 31px 83px 28px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 1px 31px 83px 28px rgba(0, 0, 0, 0.24);
+  box-shadow: 1px 31px 83px 28px rgba(0, 0, 0, 0.24);
+}
+
+#services .services-container > div > h5 {
+  font-weight: 700;
+  margin: 20px 0px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#services .services-container > div > p {
+  color: grey;
+  font-size: 0.9rem;
+  line-height: 30px;
+}
+
+#services .services-container .blue-box {
+  border-bottom: 2px solid rgb(63, 191, 255);
+}
+
+#services .services-container .red-box {
+  border-bottom: 2px solid red;
+}
+
+#services .services-container .yellow-box {
+  border-bottom: 2px solid yellow;
+}
