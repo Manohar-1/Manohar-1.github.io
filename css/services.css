@@ -30,7 +30,8 @@
 }
 
 #services .services-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
 #services .services-container > div .fas {
@@ -40,6 +41,7 @@
 
 #services .services-container > div {
   background: rgba(255, 255, 255, 0);
+  font-size: 1rem;
   margin: 20px;
   padding: 30px;
 }
@@ -62,18 +64,35 @@
 
 #services .services-container > div > p {
   color: grey;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 30px;
 }
 
-#services .services-container .blue-box {
+#services .services-container  .blue-box {
   border-bottom: 2px solid rgb(63, 191, 255);
 }
 
-#services .services-container .red-box {
+#services .services-container  .red-box {
   border-bottom: 2px solid red;
 }
 
-#services .services-container .yellow-box {
+#services .services-container  .yellow-box {
   border-bottom: 2px solid yellow;
+}
+
+
+
+/*Tablets*/
+@media only screen and (max-width:960px){
+  #services .services-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
+
+
+/*Phones*/
+@media only screen and (max-width:767px){
+
+  
 }

@@ -16,13 +16,13 @@
 
 #top .info .blue-square{
     position: absolute;
-    border: solid 9px rgba(150, 224, 244,0.4); 
+    border: solid 20px rgba(150, 224, 244,0.4); 
     width: 500px; 
     height:500px; 
     
     z-index:-1; 
-    top: -80%;
-    left: -60%;
+    top: -70%;
+    left: -20%;
 }
 
 #top .info h1{
@@ -63,4 +63,36 @@
     background-position: top center; 
     background-repeat: no-repeat; 
     background-size: cover;
+}
+
+/*Tablets*/
+@media only screen and (max-width:960px){
+ 
+    #top .container{
+        padding:0 0 80px;
+    }
+
+    #top .info .blue-square{
+        display:none;
+    } 
+
+    #top .img .background-img{
+        height:100vh;
+    }
+}
+
+
+/*Phones*/
+@media only screen and (max-width:767px){
+    #top .container{
+        padding:0 0 80px;
+    }
+
+    #top .info .blue-square{
+        display:none;
+    } 
+
+    #top .img .background-img{
+        height:100vh;
+    }
 }

@@ -1,0 +1,166 @@
+#experience {
+  padding: 80px 15px;
+}
+
+#experience .large-title {
+  color: #c6e4ff;
+  font-weight: 900;
+  font-size: 4.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  left: -50px;
+}
+
+#experience .experience-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#experience .experience-container .large-icons .square {
+  border: 30px solid #52b8ff;
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: -100px;
+}
+
+#experience .experience-container .large-icons .square .blue-box {
+  width: 150px;
+  height: 150px;
+  background: #52b8ff;
+  padding: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+}
+
+#experience .experience-container .large-icons .circle {
+  border: 30px solid #ffc853;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 50%; 
+  color:#ffc853;
+  position:relative;
+  top:100px; 
+  left:50px;
+}
+
+#experience .experience-container .large-icons .circle .white-box {
+
+  color: #ffc853;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height:150px;
+  width:150px; 
+  font-weight: 600; 
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
+}
+
+#experience .experience-container .info{
+  padding: 80px 0 0;
+} 
+
+#experience .experience-container .info .info-box{
+   padding:15px;
+} 
+
+#experience .experience-container .info .info-box h4{
+   color:#16171c; 
+   font-size: 1rem;
+   font-weight: 600;
+   text-transform:uppercase;
+   letter-spacing: 3px; 
+}
+
+#experience .experience-container .info .info-box .date{
+    color:#52b7ff; 
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform:capitalize;
+    letter-spacing: 3px;
+    padding:15px 0px; 
+    display: block; 
+    text-transform: uppercase;
+ }
+
+ #experience .experience-container .info .info-box p{
+    color:#b2b2b4; 
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform:capitalize;
+    letter-spacing: 1px;
+    padding:15px 0px; 
+    display: block; 
+    line-height: 1.5rem;
+ }
+
+ #experience .experience-container .large-icons .triangle{
+    width:0; 
+    height:0; 
+    border-style: solid;
+    border-width: 0 150px 230px 150px;
+    border-color:transparent transparent #ff5253 transparent; 
+    position:relative; /*To get the white box inside the triangle*/
+ }
+
+ #experience .experience-container .large-icons .triangle .triangle-box{
+   width:0; 
+   height: 0;
+   border-style: solid;
+   border-width: 0 93.75px 151.75px 93.75px ;
+   border-color: transparent transparent #ffffff transparent;
+
+   position: absolute;
+   left:-94px;
+   top:49px;
+   font-weight:600;
+   font-size:1.1rem;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   color:#ff5253;
+ }
+
+ #experience .experience-container .large-icons .triangle .triangle-box .text{
+    position: relative;
+    top:98px;
+    left:-29px;
+  }
+
+  /*Tablets*/
+@media only screen and (max-width:960px){
+
+  #experience .large-title {
+    left: 0px;
+  }
+
+  #experience .experience-container .large-icons .square {
+   
+    top: 130px; 
+    left:45px;
+  }
+
+  #experience .experience-container .large-icons .triangle{
+    top:21px;
+    left:11px;
+ }
+
+
+}
+
+
+/*Phones*/
+@media only screen and (max-width:767px){
+
+}

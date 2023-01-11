@@ -8,11 +8,110 @@
 
 @import "portfolio-section.css";
 
+@import "experience-section.css";
+
+@import "footer.css";
+
 body{
     
 }
 
 .container{
-    max-width: 1000px; 
+    max-width: 1150px; 
     margin:0 auto;
+}
+
+header{
+    display:flex;
+    padding:20px ;
+    justify-content: space-between;
+    background-color: white;
+    position:fixed; 
+    width: 100%; 
+    z-index:2;;
+}
+
+header .logo{
+  
+    font-size:1.5rem; 
+    font-weight:700;
+    text-transform: uppercase; 
+    color:white;
+    background:black; 
+    padding:15px 20px;
+    
+}
+
+
+header .header-menu{
+    font-size: 1rem;    
+    text-transform: uppercase;
+    text-decoration: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-menu a{
+    font-size: 1rem; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    color:black; 
+    padding:0px 10px; 
+    /* transition: all .4s ease-in-out; */
+}
+
+header .header-menu a:hover{
+    font-weight:700; 
+    color: rgba(255,53,53,1);
+}
+
+header .menu-btn{
+    font-weight:700; 
+    color: rgba(255,53,53,1);
+    display: flex;
+    align-items: center;
+    justify-items: center; 
+    padding:15px;
+    font-size:2rem;
+    display:none;
+}
+
+header .logo .name{
+    background:black;
+    padding:15px 20px;
+    text-decoration: none;
+    color:white;
+}
+
+header .menu-btn{
+    font-weight:700; 
+    color: rgba(255,53,53,1);
+    display: flex;
+    align-items: center;
+    justify-items: center; 
+    padding:15px;
+    font-size:1.6rem;
+    display:none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width : 960px){
+    .container{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 770px){
+     header .header-menu{
+        display:none;
+     } 
+
+     header .menu-btn{
+        display: flex;
+     }
+
+     header .logo{
+        font-size: 1.3rem;
+     }
 }
