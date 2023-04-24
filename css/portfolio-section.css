@@ -1,6 +1,9 @@
 #portfolio {
-  padding: 80px 15px;
+  padding: 80px 15px; 
+  
 }
+
+
 
 #portfolio .title {
   position: relative;
@@ -46,7 +49,7 @@
   text-decoration: underline;
   text-transform: uppercase;
   text-decoration-color: black;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 #portfolio .portfolio-container .box:hover {
@@ -275,6 +278,10 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(7, 150px);
     grid-gap: 20px;
+  }
+
+  #portfolio .portfolio-container .box {
+    border:1px solid black;
   }
 
   #portfolio .portfolio-container .box.image1 {
