@@ -1,7 +1,7 @@
-#top {
+#home {
 }
 
-#top .container {
+#home .container {
   display: grid;
   /* border: 1px solid red; */
 
@@ -11,13 +11,13 @@
   align-items: center;
 }
 
-#top .info {
+#home .info {
   padding: 30px;
   position: relative;
   /* border: 1px solid green; */
 }
 
-#top .info .blue-square {
+#home .info .blue-square {
   position: absolute;
   border: solid 10px rgba(150, 224, 244, 0.7);
   width: 354px;
@@ -27,20 +27,20 @@
   left: -1%;
 }
 
-#top .info h1 {
+#home .info h1 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2rem;
   margin-bottom: 0.9rem;
 }
 
-#top .info p {
+#home .info p {
   color: grey;
   text-transform: uppercase;
   margin-bottom: 3rem;
 }
 
-#top .info a {
+#home .info a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1rem;
@@ -48,7 +48,7 @@
   letter-spacing: 2px;
 }
 
-#top .info .profiles {
+#home .info .profiles {
   /* display:flex; 
   border:1px solid red; 
   margin:auto; 
@@ -63,34 +63,34 @@
   top: 96%;
 }
 
-#top .info .profiles > div {
+#home .info .profiles > div {
   border: 0px solid red;
   height: 50px;
   width: 50px;
 }
 
-#top .info .profiles > div:hover {
+#home .info .profiles > div:hover {
 }
 
-#top .info .profiles > div i {
+#home .info .profiles > div i {
   font-size: 40px;
 }
 
-#top .info .profiles > div i:hover {
+#home .info .profiles > div i:hover {
   color: rgba(150, 224, 244, 0.7);
   transition: 0.4s;
 }
 
-#top .info .profiles > div a {
+#home .info .profiles > div a {
   text-decoration: none;
 }
 
-#top .img {
+#home .img {
   /* border: 1px solid blue; */
   margin: auto;
 }
 
-#top .img > img {
+#home .img > img {
   height: 500px;
   width: 375px;
   border-radius: 20px;
@@ -98,80 +98,76 @@
 
 /*Tablets*/
 @media only screen and (max-width: 960px) {
-  #top .container {
+  #home .container {
   }
 
-  #top .info .blue-square {
+  #home .info .blue-square {
     display: none;
   }
 
-  #top .img .background-img {
+  #home .img .background-img {
     height: 100vh;
   }
 }
 
-@media only screen  and (max-width: 839px) {
-  #top .info h1 {
+@media only screen and (max-width: 839px) {
+  #home .info h1 {
     font-size: 1.4rem;
-  } 
+  }
 
-  #top .info .profiles > div i {
+  #home .info .profiles > div i {
     font-size: 30px;
   }
 }
 
 /*Phones*/
 @media only screen and (max-width: 767px) {
-  
-
-  #top .img > img {
+  #home .img > img {
     height: 475px;
     width: 350px;
     margin: 20px 0;
     border-radius: 20px;
   }
 
-  #top .info .profiles {
+  #home .info .profiles {
     position: absolute;
     display: flex;
     border: 0px solid red;
     height: 50px;
     width: 50%;
     justify-content: space-between;
-    
   }
 
-  #top .info .blue-square {
+  #home .info .blue-square {
     display: none;
   }
 
-  #top .img .background-img {
+  #home .img .background-img {
     height: 100vh;
   }
 }
 
 /* Do not touch this */
-@media only screen and (min-width: 200px) and (max-width: 700px) { 
-
-  #top .container {
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+  #home .container {
     display: flex;
     flex-direction: column;
   }
 
-  #top .img > img {
+  #home .img > img {
     height: 400px;
     width: 300px;
   }
 
-  #top .info h1 {
+  #home .info h1 {
     font-size: 1.4rem;
   }
 
-  #top .info .profiles > div i {
+  #home .info .profiles > div i {
     font-size: 30px;
   }
 
-  #top .info .profiles {
-    top:67%;    
+  #home .info .profiles {
+    top: 67%;
   }
 }

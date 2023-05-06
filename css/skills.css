@@ -70,7 +70,7 @@
   line-height: 55px;
 }
 
-#skills .skill-box .left {
+#skills .skills-card .left {
   width: 25%;
   height: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
@@ -78,19 +78,19 @@
   border:1px solid black;
 }
 
-#skills .skill-box .left img {
+#skills .skills-card .left img {
   width: 100%;
   height: 100%;
 }
 
-#skills .skill-box .right {
+#skills .skills-card .right {
   width: 75%;
   height: inherit;
   border: 0px solid brown;
   float: right;
 }
 
-#skills .skill-box .right h3 {
+#skills .skills-card .right h3 {
   text-align: center;
   line-height: 55px;
   text-transform: uppercase;

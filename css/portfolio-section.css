@@ -1,8 +1,8 @@
-#portfolio {
+#projects {
   padding: 80px 15px;
 }
 
-#portfolio .title {
+#projects .title {
   position: relative;
   width: 200px;
   height: 200px;
@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 
-#portfolio .title .square {
+#projects .title .square {
   position: absolute;
   height: 150px;
   width: 150px;
@@ -20,7 +20,7 @@
   z-index: -1;
 }
 
-#portfolio .title h1 {
+#projects .title h1 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2rem;
@@ -28,7 +28,7 @@
   z-index: 1;
 }
 
-#portfolio .projects {
+#projects .projects {
   display: grid;
   grid-template-columns: repeat(3, 300px);
   grid-row-gap: 90px;
@@ -36,30 +36,30 @@
   border: 1px solid red;
 }
 
-#portfolio .projects > div {
+#projects .projects > div {
   height: auto;
   border: 1px solid green;
 }
 
-#portfolio .projects div > img {
+#projects .projects div > img {
   width: 100%;
   height: 150px;
   border: 1px solid brown;
 }
 
-#portfolio .projects div > h3 {
+#projects .projects div > h3 {
   font-weight: 600;
   font-size: 20px;
 }
 
-#portfolio .projects div > h3 + p {
+#projects .projects div > h3 + p {
   color: grey;
   margin: 10px 0px;
   border: 1px solid royalblue;
   height: 100px;
 }
 
-#portfolio .projects div > h3 + p + p {
+#projects .projects div > h3 + p + p {
   font-size: 14px;
   font-weight: 300px;
   border: 1px solid royalblue;
@@ -67,20 +67,20 @@
   color: grey;
 }
 
-#portfolio .projects div > h3 + p + p b {
+#projects .projects div > h3 + p + p b {
   font-weight: 400;
   font-size: 14px;
   color: black;
 }
 
-#portfolio .projects > div > div {
+#projects .projects > div > div {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
   margin: 20px 0px;
 }
 
-#portfolio .projects button {
+#projects .projects button {
   background-color: royalblue;
   padding: 10px;
   border-radius: 5px;
@@ -89,24 +89,24 @@
 }
 
 @media only screen and (max-width: 957px) {
-  #portfolio .projects {
+  #projects .projects {
     grid-template-columns: repeat(2, 300px);
   }
 }
 
 @media only screen and (max-width: 642px) {
-  #portfolio .projects {
+  #projects .projects {
     grid-template-columns: repeat(1, 300px);
   }
 }
-/* #portfolio .portfolio-container {
+/* #projects .portfolio-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(4, 150px);
   grid-gap: 10px;
 }
 
-#portfolio .portfolio-container .box {
+#projects .portfolio-container .box {
   background: black;
   display: block;
   transition: all 0.4s ease-in-out;
@@ -119,7 +119,7 @@
   overflow: hidden; 
 }
 
-#portfolio .portfolio-container .box:hover {
+#projects .portfolio-container .box:hover {
   background: rgba(255, 255, 255, 1);
   transition: all 0.4s ease-in-out 0s;
   cursor: pointer;
@@ -128,7 +128,7 @@
   box-shadow: 1px 31px 83px 28px rgba(0, 0, 0, 0.24);
 }
 
-#portfolio .portfolio-container .box.image1 .image {
+#projects .portfolio-container .box.image1 .image {
   background: url("https://cdn.dribbble.com/userupload/4269261/file/original-e908db2c5e6896087458979f9ffb4a92.png?compress=1&resize=1024x768");
   height: 100%;
   width: 100%;
@@ -139,7 +139,7 @@
   grid-row: 1/2;
 }
 
-#portfolio .portfolio-container .box .image .hover-bg {
+#projects .portfolio-container .box .image .hover-bg {
   background: rgba(255, 255, 255, 0);
   padding: 10px 20px;
   transition: all 0.4s ease-in-out;
@@ -147,18 +147,18 @@
   width: 100%;
 }
 
-#portfolio .portfolio-container .box:hover .image .hover-bg {
+#projects .portfolio-container .box:hover .image .hover-bg {
   background: rgb(252, 56, 56,0.8);
   border-radius: 5px;
   padding: 10px 20px;
 }
 
-#portfolio .portfolio-container .box .image .hover-bg .title  {
+#projects .portfolio-container .box .image .hover-bg .title  {
    height: 100%;
    width:100%;
   }
 
-#portfolio .portfolio-container .box .image .hover-bg .title .text {
+#projects .portfolio-container .box .image .hover-bg .title .text {
   background: black;
   border-radius: 5px;
   padding: 10px 20px;
@@ -167,7 +167,7 @@
   opacity: 0;
 }
 
-#portfolio .portfolio-container .box:hover .image .hover-bg .title .text {
+#projects .portfolio-container .box:hover .image .hover-bg .title .text {
   background: black;
   border-radius: 5px;
   padding: 10px 20px;
@@ -180,12 +180,12 @@
 
 
 
-#portfolio .portfolio-container .box.image1 {
+#projects .portfolio-container .box.image1 {
   grid-column: 1/3;
   grid-row: 1/2;
 }
 
-#portfolio .portfolio-container .box.image1 .image {
+#projects .portfolio-container .box.image1 .image {
   background: url("https://cdn.dribbble.com/userupload/4269261/file/original-e908db2c5e6896087458979f9ffb4a92.png?compress=1&resize=1024x768");
   background-size: cover;
   background-position: center center;
@@ -193,12 +193,12 @@
  
 }
 
-#portfolio .portfolio-container .box.image2 {
+#projects .portfolio-container .box.image2 {
   grid-column: 3/4;
   grid-row: 1/4;
 }
 
-#portfolio .portfolio-container .box.image2 .image {
+#projects .portfolio-container .box.image2 .image {
   background: url("https://cdn.dribbble.com/users/11160433/screenshots/19789268/animation_grid_icon_sport.png?compress=1&resize=450x338&vertical=top");
   background-size: cover;
   background-position: center center;
@@ -208,12 +208,12 @@
 }
 
 
-#portfolio .portfolio-container .box.image3 {
+#projects .portfolio-container .box.image3 {
   grid-column: 1/2;
   grid-row: 2/4;
 }
 
-#portfolio .portfolio-container .box.image3 .image {
+#projects .portfolio-container .box.image3 .image {
   background: url("https://cdn.dribbble.com/users/1106204/screenshots/7063847/web-design-gif--final.gif");
   background-size: cover;
   background-position: center center;
@@ -224,12 +224,12 @@
 
 
 
-#portfolio .portfolio-container .box.image4 {
+#projects .portfolio-container .box.image4 {
   grid-column: 2/3;
   grid-row: 2/3;
 }
 
-#portfolio .portfolio-container .box.image4 .image {
+#projects .portfolio-container .box.image4 .image {
   background: url("https://cdn.dribbble.com/users/527354/screenshots/3934288/media/1336d7840838fd51240e433d2a522fc0.gif");
   background-size: cover;
   background-position: center center;
@@ -240,12 +240,12 @@
 
 
 
-#portfolio .portfolio-container .box.image5 {
+#projects .portfolio-container .box.image5 {
   grid-column: 1/2;
   grid-row: 4/6;
 }
 
-#portfolio .portfolio-container .box.image5 .image {
+#projects .portfolio-container .box.image5 .image {
   background: url("https://cdn.dribbble.com/users/1710340/screenshots/3900248/3.gif");
   background-size: cover;
   background-position: center center;
@@ -256,12 +256,12 @@
 
 
 
-#portfolio .portfolio-container .box.image6 {
+#projects .portfolio-container .box.image6 {
   grid-column: 2/3;
   grid-row: 3/6;
 }
 
-#portfolio .portfolio-container .box.image6 .image {
+#projects .portfolio-container .box.image6 .image {
   background: url("https://media3.giphy.com/media/GH577yqHqDKJIlU0KB/giphy.webp?cid=82a1493bapyxuwv0b976i4rdulwvk5287sx4vzgbe4g56cgu&rid=giphy.webp&ct=g");
   background-size: cover;
   background-position: center center;
@@ -272,12 +272,12 @@
 
 
 
-#portfolio .portfolio-container .box.image7 {
+#projects .portfolio-container .box.image7 {
   grid-column: 3/4;
   grid-row: 4/6;
 }
 
-#portfolio .portfolio-container .box.image7 .image {
+#projects .portfolio-container .box.image7 .image {
   background: url("https://media1.giphy.com/media/Swm74hCVKRQvI93UKQ/200w.gif?cid=ecf05e47rhlvot3onadxqt8l9gqyglon1b4xwjc6akmz3l0l&rid=200w.gif&ct=g");
   background-size: cover;
   background-position: center center;
@@ -293,42 +293,42 @@
 @media only screen and (max-width:960px){
 
 
-  #portfolio .portfolio-container {
+  #projects .portfolio-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(4, 150px);
     grid-gap: 20px;
   }
 
-  #portfolio .portfolio-container .box.image1 {
+  #projects .portfolio-container .box.image1 {
     grid-column: 1/2;
     grid-row: 1/2;
   }
 
-  #portfolio .portfolio-container .box.image2{
+  #projects .portfolio-container .box.image2{
     grid-column: 2/3;
     grid-row: 1/2;
   } 
 
-  #portfolio .portfolio-container .box.image3{
+  #projects .portfolio-container .box.image3{
     grid-column: 3/4;
     grid-row: 1/2;
   }
 
-  #portfolio .portfolio-container .box.image4{
+  #projects .portfolio-container .box.image4{
     grid-column: 1/4;
     grid-row: 2/3;
   }
-  #portfolio .portfolio-container .box.image5{
+  #projects .portfolio-container .box.image5{
     grid-column: 1/2;
     grid-row: 3/4;
   }
-  #portfolio .portfolio-container .box.image6{
+  #projects .portfolio-container .box.image6{
     grid-column: 2/3;
     grid-row: 3/4;
   }
 
-  #portfolio .portfolio-container .box.image7{
+  #projects .portfolio-container .box.image7{
     grid-column: 3/4;
     grid-row: 3/4;
   }
@@ -339,46 +339,46 @@
 
 @media only screen and (max-width:767px){
    
-  #portfolio .portfolio-container {
+  #projects .portfolio-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(7, 150px);
     grid-gap: 20px;
   }
 
-  #portfolio .portfolio-container .box {
+  #projects .portfolio-container .box {
     border:1px solid black;
   }
 
-  #portfolio .portfolio-container .box.image1 {
+  #projects .portfolio-container .box.image1 {
     grid-column: 1/2;
     grid-row: 1/2;
   }
 
-  #portfolio .portfolio-container .box.image2{
+  #projects .portfolio-container .box.image2{
     grid-column: 2/3;
     grid-row: 2/3;
   } 
 
-  #portfolio .portfolio-container .box.image3{
+  #projects .portfolio-container .box.image3{
     grid-column: 1/2;
     grid-row: 3/4;
   }
 
-  #portfolio .portfolio-container .box.image4{
+  #projects .portfolio-container .box.image4{
     grid-column: 2/3;
     grid-row: 4/5;
   }
-  #portfolio .portfolio-container .box.image5{
+  #projects .portfolio-container .box.image5{
     grid-column: 1/2;
     grid-row: 5/6;
   }
-  #portfolio .portfolio-container .box.image6{
+  #projects .portfolio-container .box.image6{
     grid-column: 2/3;
     grid-row: 6/7;
   }
 
-  #portfolio .portfolio-container .box.image7{
+  #projects .portfolio-container .box.image7{
     grid-column: 1/2;
     grid-row: 7/8;
   }
