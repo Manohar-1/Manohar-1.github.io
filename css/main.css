@@ -4,7 +4,9 @@
 
 @import "top.css";
 
-@import "services.css";
+@import "about-me.css";
+
+@import "skills.css";
 
 @import "portfolio-section.css";
 
@@ -13,6 +15,7 @@
 @import "footer.css";
 
 body {
+  overflow-x: hidden;
 }
 
 .container {
@@ -61,7 +64,7 @@ header .header-menu {
   align-items: center;
 }
 
-header .header-menu a{
+header .header-menu a {
   font-size: 0.78rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -82,43 +85,39 @@ header .menu-btn {
   align-items: center;
   padding: 0px;
   font-size: 1.5rem;
-  display: none; 
+  display: none;
   cursor: pointer;
 }
-.mobile-menu{ 
+.mobile-menu {
   display: none;
-  background:#fff;
-  z-index: 10; 
-  position: absolute; 
-   
-  flex-direction: column; 
-  height: 100vh; 
-  width:50%; 
-  padding:5px 10px; 
-  transform: translate3d(-100%,0,0);
+  background: #fff;
+  z-index: 10;
+  position: absolute;
+  flex-direction: column;
+  height: 100vh;
+  width: 50%;
+  padding: 5px 10px;
+  transform: translate3d(-100%, 0, 0);
   transition: 0.5s ease-in-out;
-}  
-
-.mobile-menu.active{
-  transform: translate3d(0,0,0);  
-  transition: 0.5s ease-in-out;
-
-  
 }
 
-.mobile-menu a{ 
+.mobile-menu.active {
+  transform: translate3d(0, 0, 0);
+  transition: 0.5s ease-in-out;
+}
+
+.mobile-menu a {
   font-size: 0.7rem;
   text-transform: uppercase;
-  text-decoration: none; 
-  color: grey; 
-  padding:30px 5px; 
-  
+  text-decoration: none;
+  color: grey;
+  padding: 30px 5px;
 }
 
-.mobile-menu a:hover{
-  background:rgba(255, 53, 53, 1);
-  color:white; 
-  font-size: 0.9rem; 
+.mobile-menu a:hover {
+  background: rgba(255, 53, 53, 1);
+  color: white;
+  font-size: 0.9rem;
   transition: 0.1s ease-in;
 }
 
@@ -147,7 +146,6 @@ header .menu-btn {
 }
 
 @media only screen and (max-width: 770px) {
-  
   header .header-menu {
     display: none;
   }
@@ -161,7 +159,9 @@ header .menu-btn {
     font-size: 1.3rem;
   }
 
-  .mobile-menu{
+  .mobile-menu {
     display: flex;
+    position:fixed;
   }
 }
+

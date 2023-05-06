@@ -1,0 +1,78 @@
+#about-me {
+  margin: 90px 0px;
+}
+
+#about-me .container .title {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#about-me .container .title .blue-circle {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background: rgba(86, 237, 134, 0.6);
+  z-index: -1;
+}
+
+#about-me .container .title h1 {
+  color: #16171c;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+#about-me .container div:nth-child(2) h1 {
+  font-size: 33px;
+  text-align: center;
+  margin: 30px;
+}
+
+#about-me .container div:nth-child(2) h1 > b {
+  color: #16171c;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#about-me .container div:nth-child(3){
+  width:80%; 
+  
+  margin:0 auto;
+}
+#about-me .container div:nth-child(3) p {
+  text-transform: capitalize;
+  text-align: center;
+  color: grey;
+  line-height: 30px;  
+  font-size:15px;
+}
+
+/* #about-me .container div:nth-child(3) p {
+  
+} */
+
+@media only screen and (max-width:406px){
+ 
+  #about-me .container div:nth-child(2) h1 {
+    font-size: 24px;
+  }
+
+  
+}
+
+@media only screen and (max-width:631px){
+  #about-me .container div:nth-child(3) p {
+    font-size: 10px;
+  }
+}

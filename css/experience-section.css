@@ -13,7 +13,6 @@
   text-align: center;
   text-transform: uppercase;
   position: relative;
- 
 }
 
 #experience .experience-container {
@@ -27,7 +26,7 @@
   padding: 5px;
   display: inline-block;
   position: relative;
-  top: -100px;
+  top: 64px;
 }
 
 #experience .experience-container .large-icons .square .blue-box {
@@ -52,8 +51,8 @@
   border-radius: 50%;
   color: #ffc853;
   position: relative;
-  top: 100px;
-  left: 50px;
+  top: 270px;
+  left: 22px;
 }
 
 #experience .experience-container .large-icons .circle .white-box {
@@ -112,7 +111,7 @@
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0px 133px 227px 129px;
+  border-width: 229px 133px 227px 129px;
   border-color: transparent transparent #ff5253 transparent;
   position: relative; /* To get the white box inside the triangle */
 }
@@ -143,17 +142,23 @@
 /*Tablets*/
 @media only screen and (max-width: 960px) {
   #experience .large-title {
-    left: 0px;
+    left: 0px; 
+    transition:0.4s ease-in-out;
   }
 
   #experience .experience-container .large-icons .square {
-    top: 130px;
+    top: 98px;
     left: 45px;
   }
 
+  #experience .experience-container .large-icons .circle {
+    top:80px;
+    left:50px;
+  }
+
   #experience .experience-container .large-icons .triangle {
-    top: 21px;
-    left: 11px;
+    top: -212px;
+    left: 35px;
   }
 }
 
@@ -167,5 +172,20 @@
 
   #experience .experience-container .large-icons {
     display: none;
+  }
+}
+
+
+
+@media only screen and (max-width: 461px) {
+  #experience .large-title {
+    font-size: 3rem; 
+    transition:0.4s ease-in-out;
+  } 
+
+  #experience .experience-container .info .info-box p {
+    
+    font-size: 0.8rem;
+   
   }
 }

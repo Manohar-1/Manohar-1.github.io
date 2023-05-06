@@ -93,6 +93,7 @@
 #top .img > img {
   height: 500px;
   width: 375px;
+  border-radius: 20px;
 }
 
 /*Tablets*/
