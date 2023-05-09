@@ -47,15 +47,19 @@
 
 #about .container div:nth-child(3){
   width:80%; 
-  
+  text-align: center;
   margin:0 auto;
 }
 #about .container div:nth-child(3) p {
   text-transform: capitalize;
-  text-align: center;
+  
   color: grey;
   line-height: 30px;  
   font-size:15px;
+}
+
+#about button{
+  margin: 20px 0px;
 }
 
 /* #about .container div:nth-child(3) p {
