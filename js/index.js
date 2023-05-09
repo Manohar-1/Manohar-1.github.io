@@ -1,5 +1,5 @@
 function newPage() {
-  window.onload(
+  window.open(
     "https://drive.google.com/file/d/1XqW2mxc9-fozirMbc6f25IAkx0pQVbc2/view?usp=sharing"
   );
 }
@@ -18,3 +18,7 @@ var clickedBtn = () => {
 };
 
 menuBtn[0].addEventListener("click", clickedBtn);
+
+GitHubCalendar(".calendar", "Manohar-1");
+// or enable responsive functionality
+GitHubCalendar(".calendar", "Manohar-1", { responsive: true });
