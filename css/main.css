@@ -12,6 +12,8 @@
 
 @import "experience-section.css";
 
+@import "gitstat.css";
+
 @import "footer.css";
 
 body {
@@ -88,6 +90,31 @@ header .menu-btn {
   display: none;
   cursor: pointer;
 }
+
+header .header-menu button {
+  padding: 5px;
+  background-color: rgb(251, 46, 46);
+  border: none;
+  cursor: pointer; 
+  border-radius: 2px;
+}
+
+header .header-menu button:hover {
+  scale: 0.98;
+}
+
+header .header-menu button a{
+  color: white;
+  font-weight: 600; 
+  text-decoration: none; 
+  
+}
+
+header .header-menu button a:hover{
+  color: white;
+  
+}
+
 .mobile-menu {
   display: none;
   background: #fff;
@@ -161,7 +188,6 @@ header .menu-btn {
 
   .mobile-menu {
     display: flex;
-    position:fixed;
+    position: fixed;
   }
 }
-

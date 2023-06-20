@@ -45,37 +45,51 @@
   font-weight: 700;
 }
 
-#about .container div:nth-child(3){
-  width:80%; 
+#about .container div:nth-child(3) {
+  width: 80%;
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
 }
 #about .container div:nth-child(3) p {
   text-transform: capitalize;
-  
+
   color: grey;
-  line-height: 30px;  
-  font-size:15px;
+  line-height: 30px;
+  font-size: 15px;
 }
 
-#about button{
+#about button {
   margin: 20px 0px;
+  padding: 10px;
+  background-color:black;
+  border: none; 
+  border-radius: 1px; 
+  cursor:pointer; 
+  
+}
+
+#about button:hover{
+  scale: 0.98;
+}
+
+#about button > a {
+  text-decoration: none; 
+  text-transform: uppercase;
+  color: white; 
+  font-weight: 600;
 }
 
 /* #about .container div:nth-child(3) p {
   
 } */
 
-@media only screen and (max-width:406px){
- 
+@media only screen and (max-width: 406px) {
   #about .container div:nth-child(2) h1 {
     font-size: 24px;
   }
-
-  
 }
 
-@media only screen and (max-width:631px){
+@media only screen and (max-width: 631px) {
   #about .container div:nth-child(3) p {
     font-size: 10px;
   }
