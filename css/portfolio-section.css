@@ -33,38 +33,54 @@
   grid-template-columns: repeat(3, 300px);
   grid-row-gap: 90px;
   justify-content: space-evenly;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 #projects .projects > div {
   height: auto;
-  border: 1px solid green;
+  border: 0px solid green;
+  height: auto;
+  border: 0px solid green;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #projects .projects div > img {
   width: 100%;
   height: 150px;
-  border: 1px solid brown;
+  border: 0px solid brown;
 }
 
 #projects .projects div > h3 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 
 #projects .projects div > h3 + p {
   color: grey;
   margin: 10px 0px;
-  border: 1px solid royalblue;
+  border: 0px solid royalblue;
   height: 100px;
+  font-size: 12px;
+  text-align: justify;
+  line-height: 16px;
 }
 
 #projects .projects div > h3 + p + p {
   font-size: 14px;
   font-weight: 300px;
-  border: 1px solid royalblue;
+  border: 0px solid royalblue;
   height: 65px;
   color: grey;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 5px;
+  line-height: 20px;
 }
 
 #projects .projects div > h3 + p + p b {

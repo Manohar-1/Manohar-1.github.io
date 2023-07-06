@@ -7,6 +7,7 @@ function newPage() {
 var menuBtn = document.getElementsByClassName("menu-btn");
 var mobileMenu = document.getElementsByClassName("mobile-menu");
 
+
 window.addEventListener("resize", () => {
   if (mobileMenu[0].classList.contains("active")) {
     mobileMenu[0].classList.remove("active");
@@ -19,6 +20,4 @@ var clickedBtn = () => {
 
 menuBtn[0].addEventListener("click", clickedBtn);
 
-GitHubCalendar(".calendar", "Manohar-1");
-// or enable responsive functionality
-GitHubCalendar(".calendar", "Manohar-1", { responsive: true });
+

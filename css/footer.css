@@ -1,59 +1,70 @@
-footer{
-    background:#f9fafc;
-    padding:100px 15px;
-
+footer {
+  background: #f9fafc;
+  padding: 100px 15px;
+  position: relative;
 }
 
-footer .social-container{
-    display:grid;
-    grid-template-columns: repeat(4,1fr); 
-    justify-items: center;
-    align-items: center;
-    max-width:400px; 
-    margin:0 auto; 
-    padding:10px;
+footer .social-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
-footer .social-container a{
-    font-size: 3rem;
-    color:#8e8f91;
-    text-decoration: none;
-    transition: all .3s ease-in-out;
-    display: inline-block;
-
+footer .social-container a {
+  font-size: 3rem;
+  color: #8e8f91;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
 }
 
-footer .social-container a:hover{
-    color:rgba(255,53,53,1);
+footer .social-container a:hover {
+  color: rgba(255, 53, 53, 1);
 }
 
-footer h5{
-    font-size:1rem;
-    color:black;
-    text-transform: uppercase;
-    text-align: center;
-    margin:20px 0;
+footer h5 {
+  font-size: 1rem;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
 }
 
-footer h6{
-    font-size: .8rem;
-    color:black;
-    text-transform: capitalize;
-    text-align: center; 
-    margin:20px 0px
+footer h6 {
+  font-size: 0.8rem;
+  color: black;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+footer h6 span {
+  color: red;
+}
+
+#copyright-tag {
+  text-align: center;
+  bottom: 0;
+  font-size: 13px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  margin-left: -50%;
+  margin-right: -50%;
 }
 
 /*Tablets*/
-@media only screen and (max-width:960px){
-
+@media only screen and (max-width: 960px) {
 }
 
-
 /*Phones*/
-@media only screen and (max-width:370px){
-
-    footer .social-container a{
-        font-size: 2rem;
-    }
-
+@media only screen and (max-width: 370px) {
+  footer .social-container a {
+    font-size: 2rem;
+  }
 }
