@@ -16,6 +16,24 @@
 
 @import "footer.css";
 
+#loader_image {
+  width: 100%;
+  height: 100vh;
+  position: fixed;  
+  background-color: white;
+  z-index: 3;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+#gif_icon{
+  position:absolute; 
+  width:100px; 
+  height:100px; 
+  bottom:0px;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -95,7 +113,7 @@ header .header-menu button {
   padding: 5px;
   background-color: rgb(251, 46, 46);
   border: none;
-  cursor: pointer; 
+  cursor: pointer;
   border-radius: 2px;
 }
 
@@ -103,16 +121,14 @@ header .header-menu button:hover {
   scale: 0.98;
 }
 
-header .header-menu button a{
+header .header-menu button a {
   color: white;
-  font-weight: 600; 
-  text-decoration: none; 
-  
+  font-weight: 600;
+  text-decoration: none;
 }
 
-header .header-menu button a:hover{
+header .header-menu button a:hover {
   color: white;
-  
 }
 
 .mobile-menu {
