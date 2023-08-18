@@ -1,9 +1,11 @@
 const loaderFile = document.getElementById("loader_image");
-
+var imgMove = document.querySelector("#home .img > img");
 window.onload = function () {
   loaderFile.style.display = "flex";
   setTimeout(() => {
     loaderFile.style.display = "none";
+    imgMove.style.transform = "translateX(0px)"; 
+    imgMove.style.opacity = 1;
   }, 2000);
 };
 
